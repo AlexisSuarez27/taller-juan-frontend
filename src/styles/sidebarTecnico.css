@@ -1,0 +1,42 @@
+.sidebarTecnicoDrawer {
+  width: 300px;
+  flex-shrink: 0;
+}
+
+.sidebarTecnicoPaper {
+  width: 300px !important;
+  box-sizing: border-box !important;
+  background-color: #0A4A92 !important;
+  color: #fff !important;
+  border-right: none !important;
+  position: fixed !important;
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0 !important;
+  height: 100vh !important;
+  z-index: 1200 !important;
+  overflow-y: auto;
+}
+
+.sidebarTecnicoHeader {
+  padding: 24px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
+  text-align: center;
+}
+
+.sidebarTecnicoHeaderTitle {
+  font-weight: bold;
+}
+
+.sidebarTecnicoHeaderSubtitle {
+  opacity: 0.9;
+}
+
+.sidebarTecnicoList {
+  margin-top: 16px;
+  padding-bottom: 20px;
+}
+
+.sidebarTecnicoIcon {
+  color: white;
+}

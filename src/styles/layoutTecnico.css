@@ -1,0 +1,17 @@
+.layoutTecnicoContainer {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.layoutTecnicoMain {
+  flex-grow: 1;
+  width: calc(100% - 300px);
+}
+
+.layoutTecnicoContent {
+  margin-top: 64px;
+  padding: 24px;
+  min-height: calc(100vh - 64px);
+  background-color: #f4f6f8;
+}

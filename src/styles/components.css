@@ -1,0 +1,39 @@
+.tableHead {
+  background-color: #1976D2 !important;
+}
+
+.tableHeadCell {
+  color: white !important;
+  font-weight: bold !important;
+}
+
+.actionButton {
+  margin-right: 16px !important;  
+  min-width: 80px;                
+}
+
+.chipSuccess {
+  background-color: #4caf50 !important;
+  color: white !important;
+}
+
+.chipWarning {
+  background-color: #ff9800 !important;
+  color: white !important;
+}
+
+.chipDefault {
+  background-color: #9e9e9e !important;
+  color: white !important;
+}
+
+.totalHighlight {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #1976D2;
+  text-align: right;
+}
+
+.dialogContent {
+  padding: 24px !important;
+}

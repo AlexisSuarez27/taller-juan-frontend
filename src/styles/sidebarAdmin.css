@@ -1,0 +1,43 @@
+.sidebarDrawer {
+  width: 280px;
+  flex-shrink: 0; 
+}
+
+.sidebarPaper {
+  width: 280px !important;
+  background-color: #0A4A92 !important;
+  color: white !important;
+  border-right: none !important;
+  position: fixed !important;   
+  top: 0 !important;
+  bottom: 0 !important;       
+  left: 0 !important;
+  height: 100vh !important;    
+  z-index: 1200 !important;    
+  overflow-y: auto;            
+}
+
+.sidebarHeader {
+  padding: 24px;
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.sidebarTitle {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.sidebarSubtitle {
+  opacity: 0.8;
+  font-size: 0.875rem;
+}
+
+.sidebarList {
+  margin-top: 16px;
+  padding-bottom: 20px;
+}
+
+.sidebarIcon {
+  color: white;
+}

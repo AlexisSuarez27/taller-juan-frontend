@@ -1,0 +1,6 @@
+.headerTecnicoAppBar {
+  margin-left: 300px !important;
+  width: calc(100% - 300px) !important;
+  background-color: #1976D2 !important;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15) !important;
+}
